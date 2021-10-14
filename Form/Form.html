@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <label>First Name: </label>
+        <input type="text" name="First Name" id="First Name" maxlength="30" required placeholder="Name: ">
+
+        <label>Last Name: </label>
+        <input type="text" name="Last Name" id="Last Name" maxlength="30" required placeholder="Name: ">
+
+        <label>Password: </label>
+        <input type="password" name="Password" id="Password" maxlength="20" required placeholder="Password: ">
+
+        <label>Email: </label>
+        <input type="email" name="Email" id="Email" maxlength="25" placeholder="E-Mail">
+
+        <label>Gender: </label>
+        <label>Male</label>
+        <input type="radio" name="Gender" id="Gender">
+        <label>Female</label>
+        <input type="radio" name="Gender" id="Gender" checked>
+
+        <br>
+        <label>Web Programming Languages You Know: </label><br>
+        <input type="checkbox" name="Html" id="Html" checked>
+        <label>Html</label>
+        <input type="checkbox" name="Css" id="Css" checked>
+        <label>Css</label>
+        <input type="checkbox" name="Javascript" id="Javascript">
+        <label>Javascript</label>
+        <input type="checkbox" name="PHP" id="PHP">
+        <label>PHP</label>
+        <input type="checkbox" name="JQuery" id="JQuery">
+        <label>JQuery</label>
+        <div>
+            <label>Color: </label>
+            <input type="color" name="Color" id="Color">
+        </div>
+
+        <div>
+            <label>Date: </label>
+            <input type="date" name="Date" id="Date">
+        </div>
+
+        <div>
+            <label>Time: </label>
+            <input type="time" name="Time" id="Time">
+        </div>
+
+        <div>
+            <label>File: </label>
+            <input type="file" name="File" id="File" multiple>
+        </div>
+
+        <div>
+            <label>Number: </label>
+            <input type="number" name="Number" id="Number" min="2" max="100">
+        </div>
+
+        <div>
+            <label>Range: </label>
+            <input type="range" name="Range" id="Range">
+        </div>
+
+        <div>
+            <label>Choose Your Country: </label>
+            <select name="Country" id="Country" size="1">
+                <option>USA</option>
+                <option>England</option>
+                <option>UAE</option>
+                <option>Egypt</option>
+                <option>Italy</option>
+                <option>Germany</option>
+                <option>Netherlands</option>
+                <option>France</option>
+            </select>
+        </div>
+
+        <label>Write Your Comments: </label><br>
+        <textarea name="Comments" id="Comments" rows="17" cols="50"></textarea>
+
+        <input type="submit" name="Send" id="Send" value="Send">
+
+        <input type="reset" name="Reset" id="Reset">
+    </form>
+</body>
+</html>

@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Body */
+body{
+    background-color: gray;
+}
+/* Nav Bar */
+.nav{
+    height: 70px;
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+/* Logo */
+.logo{
+    width: 50px;
+    height: 50px;
+    padding: 10px 12px 10px 20px;
+    float: left;
+}
+/* List */
+ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* Links */
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: underline;
+    color: #FFD700;
+}
+/* Buttons */
+.register,.login{
+    float: right;
+    margin: 15px;
+    width: 75px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:	#FF7F50;
+    color: rgb(88, 87, 87);
+}
+.register:hover,.login:hover{
+    cursor: grabbing;
+    background-color: lightcoral;
+}
+/* End Nav Bar*/
+/* Background */
+.background{
+    background-image: url(back-ground.jpg);
+    width: 85%;
+    height: 350px;
+    margin: auto; 
+    margin-top: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+/* Paragraph on Background */
+.welcome {
+    text-align: center;
+    padding-top:90px;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+/* Buttons On Background */
+.view-more{
+    margin-left: 490px;
+    margin-right: 40px;
+}
+.view-more,.reg{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:	#FF7F50;
+    color: rgb(88, 87, 87);
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.view-more:hover,.reg:hover{
+    cursor: grabbing;
+    background-color: lightcoral;
+}
+/* End Buttons On Background */
+
+/* Big Images */
+.models .big{
+    width: 220px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;   
+}
+/* Small Images */
+.models .small{
+        width: 110px;
+        height: 180px;
+        margin: 5px 3px 2px 63px;
+}
+.models .small-2{
+        width: 110px;
+        height: 180px;
+        margin: 5px 3px 2px 3px;
+}
+/* Div One , Two , Three */
+.models .one, .models .two , .models .three{
+        background-color: white;
+        height: 580px;
+        width: 350px;
+        border-radius: 10px;
+        display: inline-block;
+        box-sizing: border-box;
+}
+.one{
+    margin: 25px 10px 0px 180px;
+}
+.two , .three{
+    margin: 25px 10px 0px 20px;
+}
+/* Paragraph On Divs  */
+.models  p{
+        font-size: 30px;
+        color: rgb(88, 87, 87);
+        text-align: center;
+        font-weight: bolder;
+        padding-top: 10px;
+}
+/* Prices Of Divs */
+.models  .price{
+        text-decoration: line-through;
+        margin: 95px;
+        color: gray;
+}
+.models  .sale{
+        color: gray;
+}
+/* Button On Divs */
+.models  .buy{
+        width: 90px;
+        height: 35px;
+        border-radius: 10px;
+        background-color:	#FF7F50;
+        color: rgb(88, 87, 87);
+        margin: 10px 125px;
+}
+.models .buy:hover{
+        cursor: grabbing;
+        background-color: lightcoral;   
+}
+/* Table */
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+table{
+    width: 73%;
+    height: 350px;
+    margin: 60px 10px 0px 180px;
+    text-align: center;
+    border-radius: 5px;
+}
+th{
+    height: 40px;
+    color: black;
+    background-color: #FF7F50;
+}
+.image{
+    height: 60px;
+    width: 60px;
+}
+tr:nth-child(even){
+    background-color: rgb(216, 215, 215);
+    height: 90px;
+}
+tr:nth-child(3) , tr:nth-child(5){
+    background-color: white;
+    height: 90px;
+}
+table button{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:	#FF7F50;
+    color: rgb(88, 87, 87);
+}
+table button:hover{
+    cursor: grabbing;
+    background-color: lightcoral;   
+}
+/* End Table */
+/* CopyRight */
+.copyright{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+/* End CopyRight */
+
+
+/* Another Way To Design Section Models */
+/* Big Image In Div One 
+.big{
+    width: 220px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+/* Small Image In Div One 
+.small{
+    width: 110px;
+    height: 180px;
+    margin: 5px 3px 2px 63px;
+}
+.small-2{
+    width: 110px;
+    height: 180px;
+    margin: 5px 3px 2px 3px;
+}
+/* Div One 
+.one{
+    background-color: white;
+    height: 580px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 25px 10px 0px 70px;
+}
+/* Paragraph On Div One 
+p{
+    font-size: 30px;
+    color: rgb(88, 87, 87);
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+/* Prices Of Div One 
+.price{
+    text-decoration: line-through;
+    margin: 95px;
+    color: gray;
+}
+.sale{
+    color: gray;
+}
+/* Button On Div One 
+.buy{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:	#FF7F50;
+    color: rgb(88, 87, 87);
+    margin: 10px 125px;
+}
+.buy:hover{
+    cursor: grabbing;
+    background-color: lightcoral;   
+}
+/* End Div One */
+/* Big Image In Div Two 
+.big{
+    width: 220px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+/* Small Image In Div Two 
+.small{
+    width: 110px;
+    height: 180px;
+    margin: 5px 3px 2px 63px;
+}
+.small-2{
+    width: 110px;
+    height: 180px;
+    margin: 5px 3px 2px 3px;
+}
+/* Div Two 
+.two{
+    background-color: white;
+    height: 580px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 25px 10px 0px 70px;
+}
+/* Paragraph On Div Two 
+p{
+    font-size: 30px;
+    color: rgb(88, 87, 87);
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+/* Prices Of Div Two
+.price{
+    text-decoration: line-through;
+    margin: 95px;
+    color: gray;
+}
+.sale{
+    color: gray;
+}
+/* Button On Div Two 
+.buy{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:	#FF7F50;
+    color: rgb(88, 87, 87);
+    margin: 10px 125px;
+}
+.buy:hover{
+    cursor: grabbing;
+    background-color: lightcoral;   
+}
+/* End Div Two */
+/* Big Image In Div Three 
+.big{
+    width: 220px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+/* Small Image In Div Three 
+.small{
+    width: 110px;
+    height: 180px;
+    margin: 5px 3px 2px 63px;
+}
+.small-2{
+    width: 110px;
+    height: 180px;
+    margin: 5px 3px 2px 3px;
+}
+/* Div Three 
+.three{
+    background-color: white;
+    height: 580px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 25px 10px 0px 70px;
+}
+/* Paragraph On Div Three 
+p{
+    font-size: 30px;
+    color: rgb(88, 87, 87);
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+/* Prices Of Div Three 
+.price{
+    text-decoration: line-through;
+    margin: 95px;
+    color: gray;
+}
+.sale{
+    color: gray;
+}
+/* Button On Div Three 
+.buy{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:	#FF7F50;
+    color: rgb(88, 87, 87);
+    margin: 10px 125px;
+}
+.buy:hover{
+    cursor: grabbing;
+    background-color: lightcoral;   
+}
+/* End Div Three */
